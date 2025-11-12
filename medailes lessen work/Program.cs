@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,10 @@ namespace medailes_lessen_work
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Wat is je naam en je leeftijd?");
+            string naam = Console.ReadLine();
+            string leeftijd = Console.ReadLine();
+            Console.WriteLine("Hallo, " + naam + " Dus je bent " + leeftijd + " jaar oud");
         }
     }
 }
