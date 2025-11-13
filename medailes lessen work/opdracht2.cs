@@ -80,7 +80,7 @@ namespace medailes_lessen_work
                     {
                         Console.WriteLine("Je hebt voor " + Kamer3 + " Gekozen maar je hebt er niks aan (foute keuze 4 = wat deed ik hier?)");
                     }
-                    else if (Kamer3 == "Ingangs Hal") ;
+                    else if (Kamer3 == "Ingangs Hal");
                     {
                         Console.WriteLine("Terwijl je naar boven loopt kom je er achter dat de deur opslot zit dus je gebruikt je ijzeren bijl om de deur open te breken (ending 3 = Vrijheid)");
                     }
