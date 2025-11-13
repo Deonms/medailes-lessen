@@ -70,7 +70,7 @@ namespace medailes_lessen_work
                 }
                 else if (Kamer2 == "Wijn Kelder")
                 {
-                    Console.WriteLine("Je Hebt je Dronken Gedronken waardoor je flauw bent gevallen (foute keuze 3 = Dronken");
+                    Console.WriteLine("Je Hebt je Dronken Gedronken waardoor je flauw bent gevallen (foute keuze 3 = Dronken)");
                 }
                 else if (Kamer2 == "Opslag")
                 {
@@ -86,7 +86,7 @@ namespace medailes_lessen_work
                     }
                     else if (Kamer3 == "Wijn Kelder")
                     {
-                        Console.WriteLine("Je Hebt  je Dronken Gedronken waardoor je flauw bent gevallen (foute keuze 3 = Dronken");
+                        Console.WriteLine("Je Hebt  je Dronken Gedronken waardoor je flauw bent gevallen (foute keuze 3 = Dronken)");
                     }
                     else
                     {
