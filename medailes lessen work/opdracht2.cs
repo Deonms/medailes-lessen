@@ -10,7 +10,7 @@ namespace medailes_lessen_work
     {
         public void Start()
         {
-            Console.WriteLine("Je Staat Nu in een Hal bij De ingang (Ingangs Hal) naar welke kamer wil je? Huiskamer, Kelder, 2de Verdieping  (er zijn 3 eindes en 4 fout keuzes)");
+            Console.WriteLine("Je Staat Nu in een Hal bij De ingang (Ingangs Hal) naar welke kamer wil je? Huiskamer, Kelder, 2de Verdieping  (er zijn 4 eindes en 5 fout keuzes)");
             string Kamer1 = Console.ReadLine();
             if (Kamer1 == "Huiskamer")
             {
@@ -92,6 +92,40 @@ namespace medailes_lessen_work
                     {
                         Console.WriteLine("Dit is NIET een geldige kamer of je hebt het niet goed gespelt");
                     }
+                }
+                else
+                {
+                    Console.WriteLine("Dit is NIET een geldige kamer of je hebt het niet goed gespelt");
+                }
+            }
+            else if (Kamer1 == "2de Verdieping")
+            {
+                Console.WriteLine("je bent naar " + Kamer1 + " waar wil je nu naar toe?: Slaapkamer, Zolder, Toilet");
+                string kamer2 = Console.ReadLine();
+                if (kamer2 == "SlaapKamer")
+                {
+                    Console.WriteLine("Wil je Gaan Slapen? (ja of nee)");
+                    string jaofnee = Console.ReadLine();
+                    if (jaofnee == "ja")
+                    {
+                        Console.WriteLine("je bent gaan slapen (ending 4 = slaap lekker)");
+                    }
+                    else if (jaofnee == "nee")
+                    {
+                        Console.WriteLine("je bent gevallen op de grond omdat je moe was (foute keuze 5 = veelste moe om wakker te Blijven)");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Dit is NIET een geldige Optie of je hebt het niet goed gespelt");
+                    }
+                }
+                else if (kamer2 == "Zolder")
+                {
+                    Console.WriteLine("Je liep naar boven toe naar de " + kamer2 + " maar het val luik valt op slot achter je en er is ook geen raam om uit te ontsnappen (foute keuze 2 = Opgesloten)");
+                }
+                else if (kamer2 == "Toilet")
+                {
+                    Console.WriteLine("je bent naar de wc gegaan en je moest ook heel nodig (ending 2 = hoge nood)");
                 }
                 else
                 {
