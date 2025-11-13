@@ -106,11 +106,11 @@ namespace medailes_lessen_work
                 {
                     Console.WriteLine("Wil je Gaan Slapen? (ja of nee)");
                     string jaofnee = Console.ReadLine();
-                    if (jaofnee == "ja")
+                    if (jaofnee == "Ja")
                     {
                         Console.WriteLine("je bent gaan slapen (ending 4 = slaap lekker)");
                     }
-                    else if (jaofnee == "nee")
+                    else if (jaofnee == "Nee")
                     {
                         Console.WriteLine("je bent gevallen op de grond omdat je moe was (foute keuze 5 = veelste moe om wakker te Blijven)");
                     }
