@@ -68,7 +68,7 @@ namespace medailes_lessen_work
                 {
                     Console.WriteLine("Je realiseert dat de deur op het slot is gevallen toen je naar beneden liep (foute keuze 2 = Opgesloten");
                 }
-                else if if (Kamer2 == "Wijn Kelder")
+                else if  (Kamer2 == "Wijn Kelder")
                     {
                         Console.WriteLine("Je Hebt je Dronken Gedronken waardoor je flauw bent gevallen (foute keuze 3 = Dronken");
                     }
