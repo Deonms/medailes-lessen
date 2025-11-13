@@ -62,7 +62,7 @@ namespace medailes_lessen_work
             }
             else if (Kamer1 == "Kelder")
             {
-                Console.WriteLine("je bent naar " + Kamer1 + " gegaan naar welke kamer wil je nu?: Opslag, Wijn Opslag, Ingangs Hal");
+                Console.WriteLine("je bent naar " + Kamer1 + " gegaan naar welke kamer wil je nu?: Opslag, Wijn Kelder, Ingangs Hal");
                 string Kamer2 = Console.ReadLine();
                 if (Kamer2 == "Ingangs Hal")
                 {
