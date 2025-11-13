@@ -75,7 +75,7 @@ namespace medailes_lessen_work
                 else if (Kamer2 == "Opslag")
                 {
                     Console.WriteLine("Je bent naar de " + Kamer2 + " Gegaan en je hebt een ijzeren Bijl gevonden die je mee neemt waar wil je nu naar toe? Wijn Opslag, Ingangs Hal, 2de Opslag");
-                    string Kamer3 = Console.ReadLine()
+                    string Kamer3 = Console.ReadLine();
                     if (Kamer3 == "2de Opslag")
                     {
                         Console.WriteLine("Je hebt voor " + Kamer3 + " Gekozen maar je hebt er niks aan");
