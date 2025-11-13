@@ -104,7 +104,7 @@ namespace medailes_lessen_work
                 string kamer2 = Console.ReadLine();
                 if (kamer2 == "Slaapkamer")
                 {
-                    Console.WriteLine("Wil je Gaan Slapen? (ja of nee)");
+                    Console.WriteLine("Wil je Gaan Slapen? (Ja of Nee)");
                     string jaofnee = Console.ReadLine();
                     if (jaofnee == "Ja")
                     {
