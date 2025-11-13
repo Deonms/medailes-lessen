@@ -102,7 +102,7 @@ namespace medailes_lessen_work
             {
                 Console.WriteLine("je bent naar " + Kamer1 + " waar wil je nu naar toe?: Slaapkamer, Zolder, Toilet");
                 string kamer2 = Console.ReadLine();
-                if (kamer2 == "SlaapKamer")
+                if (kamer2 == "Slaapkamer")
                 {
                     Console.WriteLine("Wil je Gaan Slapen? (ja of nee)");
                     string jaofnee = Console.ReadLine();
