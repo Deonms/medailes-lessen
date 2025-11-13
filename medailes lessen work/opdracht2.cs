@@ -10,7 +10,7 @@ namespace medailes_lessen_work
     {
         public void Start()
         {
-            Console.WriteLine("Je Staat Nu in een Hal bij De ingang (Ingangs Hal) naar welke kamer wil je? Huiskamer, Kelder, 2de Verdieping");
+            Console.WriteLine("Je Staat Nu in een Hal bij De ingang (Ingangs Hal) naar welke kamer wil je? Huiskamer, Kelder, 2de Verdieping  (er zijn 2 eindes en 3 fout keuzes)");
             string Kamer1 = Console.ReadLine();
             if (Kamer1 == "Huiskamer")
             {
@@ -22,11 +22,11 @@ namespace medailes_lessen_work
                     string Kamer3 = Console.ReadLine();
                     if (Kamer3 == "Mystery Ladder" || Kamer3 == "Gang 2")
                     {
-                        Console.WriteLine("Je bent af gegaan door " + Kamer3 + " want het liep dood");
+                        Console.WriteLine("Je bent af gegaan door " + Kamer3 + " want het liep dood (foute keuze 1 = dood lopend)");
                     }
                     else if (Kamer3 == "Keuken")
                     {
-                        Console.WriteLine("je hebt gewonnen " + Kamer3 + " want je hebt eten gemaakt en in de keuken het opgegeten (Ending 1 = Eating)");
+                        Console.WriteLine("je hebt gewonnen " + Kamer3 + " want je hebt eten gemaakt en in de keuken het opgegeten (Ending 1 = Eten)");
                     }
                     else
                     {
@@ -39,7 +39,7 @@ namespace medailes_lessen_work
                     string Kamer3 = Console.ReadLine();
                     if (Kamer3 == "Eetkamer" || Kamer3 == "Huiskamer")
                     {
-                        Console.WriteLine("je hebt gewonnen " + Kamer3 + " want je hebt eten gemaakt en in " + Kamer3 + " het opgegeten (Ending 1 = Eating)");
+                        Console.WriteLine("je hebt gewonnen " + Kamer3 + " want je hebt eten gemaakt en in " + Kamer3 + " het opgegeten (Ending 1 = Eten)");
                     }
                     else if (Kamer3 == "Toilet")
                     {
@@ -58,7 +58,20 @@ namespace medailes_lessen_work
                 {
                     Console.WriteLine("Dit is NIET een geldige kamer of je hebt het niet goed gespelt");
                 }
-                
+
+            }
+            else if (Kamer1 == "Kelder")
+            {
+                Console.WriteLine("je bent naar " + Kamer1 + " gegaan naar welke kamer wil je nu?: Opslag Ruimte, Wijn Opslag Kamer, Ingangs Hal");
+                string Kamer2 = Console.ReadLine();
+                if (Kamer2 == "Ingangs Hal")
+                {
+                    Console.WriteLine("Je realiseert dat de deur op het slot is gevallen toen je naar beneden liep (foute keuze 2 = Opgesloten");
+                }
+                else if if (Kamer2 == "Wijn Kelder")
+                    {
+                        Console.WriteLine("Je Hebt je Dronken Gedronken waardoor je flauw bent gevallen (foute keuze 3 = Dronken");
+                    }
             }
             else
             {
