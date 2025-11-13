@@ -78,7 +78,7 @@ namespace medailes_lessen_work
                     string Kamer3 = Console.ReadLine();
                     if (Kamer3 == "2de Opslag")
                     {
-                        Console.WriteLine("Je hebt voor " + Kamer3 + " Gekozen maar je hebt er niks aan");
+                        Console.WriteLine("Je hebt voor " + Kamer3 + " Gekozen maar je hebt er niks aan (foute keuze 4 = wat deed ik hier?)");
                     }
                 }
                 else
