@@ -80,9 +80,17 @@ namespace medailes_lessen_work
                     {
                         Console.WriteLine("Je hebt voor " + Kamer3 + " Gekozen maar je hebt er niks aan (foute keuze 4 = wat deed ik hier?)");
                     }
-                    else if (Kamer3 == "Ingangs Hal");
+                    else if (Kamer3 == "Ingangs Hal")
                     {
                         Console.WriteLine("Terwijl je naar boven loopt kom je er achter dat de deur opslot zit dus je gebruikt je ijzeren bijl om de deur open te breken (ending 3 = Vrijheid)");
+                    }
+                    else if (Kamer3 == "Wijn Kelder")
+                    {
+                        Console.WriteLine("Je Hebt  je Dronken Gedronken waardoor je flauw bent gevallen (foute keuze 3 = Dronken");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Dit is NIET een geldige kamer of je hebt het niet goed gespelt");
                     }
                 }
                 else
