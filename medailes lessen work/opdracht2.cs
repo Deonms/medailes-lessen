@@ -10,7 +10,7 @@ namespace medailes_lessen_work
     {
         public void Start()
         {
-            Console.WriteLine("Je Staat Nu in een Hal bij De ingang (Ingangs Hal) naar welke kamer wil je? Huiskamer, Kelder, 2de Verdieping  (er zijn 2 eindes en 4 fout keuzes)");
+            Console.WriteLine("Je Staat Nu in een Hal bij De ingang (Ingangs Hal) naar welke kamer wil je? Huiskamer, Kelder, 2de Verdieping  (er zijn 3 eindes en 4 fout keuzes)");
             string Kamer1 = Console.ReadLine();
             if (Kamer1 == "Huiskamer")
             {
@@ -79,6 +79,10 @@ namespace medailes_lessen_work
                     if (Kamer3 == "2de Opslag")
                     {
                         Console.WriteLine("Je hebt voor " + Kamer3 + " Gekozen maar je hebt er niks aan (foute keuze 4 = wat deed ik hier?)");
+                    }
+                    else if (Kamer3 == "Ingangs Hal") ;
+                    {
+                        Console.WriteLine("Terwijl je naar boven loopt kom je er achter dat de deur opslot zit dus je gebruikt je ijzeren bijl om de deur open te breken (ending 3 = Vrijheid)");
                     }
                 }
                 else
