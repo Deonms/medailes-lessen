@@ -10,7 +10,7 @@ namespace medailes_lessen_work
     {
         public void Start()
         {
-            Console.WriteLine("Je Staat Nu in een Hal bij De ingang (Ingangs Hal) naar welke kamer wil je? Huiskamer, Kelder, 2de Verdieping  (er zijn 2 eindes en 3 fout keuzes)");
+            Console.WriteLine("Je Staat Nu in een Hal bij De ingang (Ingangs Hal) naar welke kamer wil je? Huiskamer, Kelder, 2de Verdieping  (er zijn 2 eindes en 4 fout keuzes)");
             string Kamer1 = Console.ReadLine();
             if (Kamer1 == "Huiskamer")
             {
@@ -52,7 +52,7 @@ namespace medailes_lessen_work
                 }
                 else if (Kamer2 == "Toilet")
                 {
-                    Console.WriteLine("je bent hier heen gegaan voor niks dus je bent af");
+                    Console.WriteLine("je bent hier heen gegaan voor niks dus je bent af (foute keuze 4 = wat deed ik hier?)");
                 }
                 else
                 {
@@ -62,16 +62,29 @@ namespace medailes_lessen_work
             }
             else if (Kamer1 == "Kelder")
             {
-                Console.WriteLine("je bent naar " + Kamer1 + " gegaan naar welke kamer wil je nu?: Opslag Ruimte, Wijn Opslag Kamer, Ingangs Hal");
+                Console.WriteLine("je bent naar " + Kamer1 + " gegaan naar welke kamer wil je nu?: Opslag, Wijn Opslag, Ingangs Hal");
                 string Kamer2 = Console.ReadLine();
                 if (Kamer2 == "Ingangs Hal")
                 {
-                    Console.WriteLine("Je realiseert dat de deur op het slot is gevallen toen je naar beneden liep (foute keuze 2 = Opgesloten");
+                    Console.WriteLine("Je realiseert dat de deur op het slot is gevallen toen je naar beneden liep (foute keuze 2 = Opgesloten)");
                 }
-                else if  (Kamer2 == "Wijn Kelder")
+                else if (Kamer2 == "Wijn Kelder")
+                {
+                    Console.WriteLine("Je Hebt je Dronken Gedronken waardoor je flauw bent gevallen (foute keuze 3 = Dronken");
+                }
+                else if (Kamer2 == "Opslag")
+                {
+                    Console.WriteLine("Je bent naar de " + Kamer2 + " Gegaan en je hebt een ijzeren Bijl gevonden die je mee neemt waar wil je nu naar toe? Wijn Opslag, Ingangs Hal, 2de Opslag");
+                    string Kamer3 = Console.ReadLine()
+                    if (Kamer3 == "2de Opslag")
                     {
-                        Console.WriteLine("Je Hebt je Dronken Gedronken waardoor je flauw bent gevallen (foute keuze 3 = Dronken");
+                        Console.WriteLine("Je hebt voor " + Kamer3 + " Gekozen maar je hebt er niks aan");
                     }
+                }
+                else
+                {
+                    Console.WriteLine("Dit is NIET een geldige kamer of je hebt het niet goed gespelt");
+                }
             }
             else
             {
