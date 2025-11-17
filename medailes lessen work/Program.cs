@@ -21,7 +21,7 @@ namespace medailes_lessen_work
             Opdracht2 test = new Opdracht2();
             test.Start();
             */
-            Opdracht2 test = new Opdracht2();
+            Opdracht3 test = new Opdracht3();
             test.Start();
         }
     }
