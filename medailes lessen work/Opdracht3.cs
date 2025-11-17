@@ -22,14 +22,15 @@ namespace medailes_lessen_work
             {
                 Console.WriteLine("Het is Dus zonnig en het is " + Graden + " Graden ik raad aan om je intesmeren voordat jij je verbrant");
             }
-            else if (Weer == "1" && Graden == 15)
+            else if (Weer == "1" && Graden < 15)
             {
                 Console.WriteLine("het is zonnig maar de graden zou er niet perse hoeven te zorgen dat je verbrand maar indien je wilt zou je jezelf kunnen insmeren");
             }
-            if (Weer == "2" && Graden == 15)
+            if (Weer == "2" && Graden >= 15)
             {
                 Console.WriteLine("het is mischien wel warm maar het regent dus je hoeft je niet intesmeren maar pak wel een paraplu of doe een regenjas aan");
             }
+            
         }
     }
 }
