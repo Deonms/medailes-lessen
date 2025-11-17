@@ -42,6 +42,14 @@ namespace medailes_lessen_work
             {
                 Console.WriteLine("het is koud doe een jas aan zodat je geen kou vat");
             }
+            if (Weer == "4" && Graden >= 1)
+            {
+                Console.WriteLine("Dit is alleen onmogelijk");
+            }
+            else if (Weer == "4" && Graden < 1)
+            {
+                Console.WriteLine("doe een jas aan anders vat je kou want het zit te vriesen");
+            }
 
 
         }
