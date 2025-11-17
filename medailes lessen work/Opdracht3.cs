@@ -11,42 +11,46 @@ namespace medailes_lessen_work
         public void Start() 
         {
             Console.WriteLine("Wat voor weer is het Vandaag?: 1. Zon 2. Regen 3.Bewolkt. 4.Sneeuw 5.Iets anders");
-            String Weer = Console.ReadLine();
+            int Weer = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("en hoe warm is het vandaag?");
             int Graden = Convert.ToInt32(Console.ReadLine());
-            if (Weer == "5")
+            if (Weer == 5)
             {
-                Console.WriteLine("Sorry ik kan je dan helaas niet helpen");
+                Console.WriteLine("Sorry ik kan je dan helaas niet helpen want ik weet niet precies welk weer het is");
             }
-            if (Weer == "1" && Graden >= 15)
+            if (Weer >= 6)
+            {
+                Console.WriteLine("Sorry ik kan je dan helaas niet helpen want dit is niet een bestaande data cijfer voor mij");
+            }
+            if (Weer == 1 && Graden >= 15)
             {
                 Console.WriteLine("Het is Dus zonnig en het is " + Graden + " Graden ik raad aan om je intesmeren voordat jij je verbrant");
             }
-            else if (Weer == "1" && Graden < 15)
+            else if (Weer == 1 && Graden < 15)
             {
                 Console.WriteLine("het is zonnig maar de graden zou er niet perse hoeven te zorgen dat je verbrand maar indien je wilt zou je jezelf kunnen insmeren");
             }
-            if (Weer == "2" && Graden >= 15)
+            if (Weer == 2 && Graden >= 15)
             {
                 Console.WriteLine("het is mischien wel warm maar het regent dus je hoeft je niet intesmeren maar pak wel een paraplu of doe een regenjas aan");
             }
-            else if (Weer == "2" && Graden < 15)
+            else if (Weer == 2 && Graden < 15)
             {
                 Console.WriteLine("Het Regent en het is koud doe een jas aan zodat je geen kou vat");
             }
-            if (Weer == "3" && Graden >= 15)
+            if (Weer == 3 && Graden >= 15)
             {
                 Console.WriteLine("je hoeft geen jas aan te doen");
             }
-            else if (Weer == "3" && Graden < 15)
+            else if (Weer == 3 && Graden < 15)
             {
                 Console.WriteLine("het is koud doe een jas aan zodat je geen kou vat");
             }
-            if (Weer == "4" && Graden >= 1)
+            if (Weer == 4 && Graden >= 1)
             {
                 Console.WriteLine("Dit is helaas Natte sneeuw en het blijft niet liggen op de grond");
             }
-            else if (Weer == "4" && Graden < 1)
+            else if (Weer == 4 && Graden < 1)
             {
                 Console.WriteLine("doe een jas aan anders vat je kou want het zit te vriesen");
             }
