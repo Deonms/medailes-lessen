@@ -34,6 +34,14 @@ namespace medailes_lessen_work
             {
                 Console.WriteLine("Het Regent en het is koud doe een jas aan zodat je geen kou vat");
             }
+            if (Weer == "3" && Graden >= 15)
+            {
+                Console.WriteLine("je hoeft geen jas aan te doen");
+            }
+            else if (Weer == "3" && Graden < 15)
+            {
+                Console.WriteLine("het is koud doe een jas aan zodat je geen kou vat");
+            }
 
 
         }
