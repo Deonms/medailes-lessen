@@ -30,7 +30,12 @@ namespace medailes_lessen_work
             {
                 Console.WriteLine("het is mischien wel warm maar het regent dus je hoeft je niet intesmeren maar pak wel een paraplu of doe een regenjas aan");
             }
-            
+            else if (Weer == "2" && Graden < 15)
+            {
+                Console.WriteLine("Het Regent en het is koud doe een jas aan zodat je geen kou vat");
+            }
+
+
         }
     }
 }
