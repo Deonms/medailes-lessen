@@ -44,7 +44,7 @@ namespace medailes_lessen_work
             }
             if (Weer == "4" && Graden >= 1)
             {
-                Console.WriteLine("Dit is alleen onmogelijk");
+                Console.WriteLine("Dit is helaas Natte sneeuw en het blijft niet liggen op de grond");
             }
             else if (Weer == "4" && Graden < 1)
             {
