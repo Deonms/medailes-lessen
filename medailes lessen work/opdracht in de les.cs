@@ -11,11 +11,12 @@ namespace medailes_lessen_work
     {
         public void Start()
         {
+            bool GroterDan8;
             Console.WriteLine("Geef me een getal");
             int getal = Convert.ToInt32(Console.ReadLine());
             if (getal > 0)
             {
-
+                return true;
             }
         }
     }
