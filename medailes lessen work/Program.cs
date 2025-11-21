@@ -11,7 +11,7 @@ namespace medailes_lessen_work
     {
         static void Main(string[] args)
         {
-            /*
+            
             Console.WriteLine("Wat is je naam en je leeftijd?");
             string naam = Console.ReadLine();
             string leeftijd = Console.ReadLine();
@@ -21,9 +21,9 @@ namespace medailes_lessen_work
             Opdracht2 test = new Opdracht2();
             test.Start();
 
-            Opdracht3 test = new Opdracht3();
-            test.Start();
-            */
+            Opdracht3 Opdracht3 = new Opdracht3();
+            Opdracht3.Start();
+            
         }
     }
 }

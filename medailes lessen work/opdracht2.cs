@@ -16,7 +16,7 @@ namespace medailes_lessen_work
             {
                 Console.WriteLine("Je Staat Nu in " + Kamer1 + " naar welke kamer wil je? Eetkamer, Keuken, Toilet");
                 string Kamer2 = Console.ReadLine();
-                if (Kamer2 == "EetKamer")
+                if (Kamer2 == "Eetkamer")
                 {
                     Console.WriteLine("Je Staat Nu in " + Kamer2 + " naar welke kamer wil je? Keuken, Gang 2, Mystery Ladder");
                     string Kamer3 = Console.ReadLine();
