@@ -24,6 +24,8 @@ namespace medailes_lessen_work
             Opdracht3 Opdracht3 = new Opdracht3();
             Opdracht3.Start();
             */
+            opdracht_in_de_les opdracht_in_de_les = new opdracht_in_de_les();
+            opdracht_in_de_les.Start();
         }
     }
 }
