@@ -8,5 +8,9 @@ namespace medailes_lessen_work
 {
     internal class Opdracht4
     {
+        public void Start()
+        {
+
+        }
     }
 }
