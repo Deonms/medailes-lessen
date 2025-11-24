@@ -17,7 +17,6 @@ namespace medailes_lessen_work
             string leeftijd = Console.ReadLine();
             Console.WriteLine("Hallo, " + naam + " Dus je bent " + leeftijd + " jaar oud");
             
-            
             Opdracht2 test = new Opdracht2();
             test.Start();
 
