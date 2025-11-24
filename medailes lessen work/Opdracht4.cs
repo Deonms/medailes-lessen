@@ -21,6 +21,15 @@ namespace medailes_lessen_work
             int dagUser = Convert.ToInt32(Console.ReadLine());
             int dag = DateTime.Now.Day - dagUser;
             Console.WriteLine(jaar + " Jaar " + Maand + " Maanden " + dag + " Dagen ");
+
+            if(jaar >= 18)
+            {
+                Console.WriteLine("Je bent " + jaar + " en dus je mag stemmen");
+            }
+            else
+            {
+                Console.WriteLine("Je bent " + jaar + " en dus je mag nog niet stemmen");
+            }
         }
     }
 }
