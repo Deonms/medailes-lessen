@@ -20,7 +20,7 @@ namespace medailes_lessen_work
             Console.WriteLine("hoeveelste dag ben je geboren? (Dag in Cijfers)");
             int dagUser = Convert.ToInt32(Console.ReadLine());
             int dag = DateTime.Now.Day - dagUser;
-            Console.WriteLine(jaar + " Jaar " + Maand + " Maanden " + dag + " Dagen ");
+            Console.WriteLine("\nje bent: " + jaar + " Jaar " + Maand + " Maanden " + dag + " Dagen ");
 
             if (jaar >= 18)
             {
