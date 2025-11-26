@@ -42,14 +42,13 @@ namespace medailes_lessen_work
                 b = b + 1;
             }
             Console.WriteLine("Dat was while loop");
-            int[] c = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            
+            int[] c = new int[10]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
             foreach (int number in c)
             {
                 Console.WriteLine(number);
-
-               
             }
+            Console.WriteLine("Dat was foreach loop");
         }
     }
 }
