@@ -22,13 +22,25 @@ namespace medailes_lessen_work
             int dag = DateTime.Now.Day - dagUser;
             Console.WriteLine(jaar + " Jaar " + Maand + " Maanden " + dag + " Dagen ");
 
-            if(jaar >= 18)
+            if (jaar >= 18)
             {
                 Console.WriteLine("\nJe bent " + jaar + " en dus je mag stemmen");
             }
             else
             {
                 Console.WriteLine("\nJe bent " + jaar + " en dus je mag nog niet stemmen");
+            }
+            if (jaar >= 18 && jaar < 20)
+            {
+                Console.WriteLine("en Je bent net volwassen");
+            }
+            else if (jaar >= 20 && jaar < 65)
+            {
+                Console.WriteLine("en Je bent een volwassenen al een tijdje");
+            }
+            else if (jaar >= 65)
+            {
+                Console.WriteLine("en Je bent een berjaarde");
             }
         }
     }
