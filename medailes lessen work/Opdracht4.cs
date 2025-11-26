@@ -24,11 +24,11 @@ namespace medailes_lessen_work
 
             if(jaar >= 18)
             {
-                Console.WriteLine("Je bent " + jaar + " en dus je mag stemmen");
+                Console.WriteLine("\nJe bent " + jaar + " en dus je mag stemmen");
             }
             else
             {
-                Console.WriteLine("Je bent " + jaar + " en dus je mag nog niet stemmen");
+                Console.WriteLine("\nJe bent " + jaar + " en dus je mag nog niet stemmen");
             }
         }
     }
