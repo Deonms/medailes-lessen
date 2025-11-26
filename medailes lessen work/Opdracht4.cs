@@ -21,7 +21,6 @@ namespace medailes_lessen_work
             int dagUser = Convert.ToInt32(Console.ReadLine());
             int dag = DateTime.Now.Day - dagUser;
             Console.WriteLine("\nje bent: " + jaar + " Jaar " + Maand + " Maanden " + dag + " Dagen Oud");
-
             if (jaar >= 18)
             {
                 Console.WriteLine("\nJe bent " + jaar + " en dus je mag stemmen");
