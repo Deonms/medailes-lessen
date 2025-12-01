@@ -10,10 +10,17 @@ namespace medailes_lessen_work
     {
         public void Start()
         {
-            for (int i = 1; i <= 10; i++)
+            Console.WriteLine("Wat wil je keer doen?");
+            int getalkeer = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("en hoe vaak wil je het keer doen? (hoe groter de nummer hoe langer het duurt)");
+            int maximumgetal = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i <= maximumgetal; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(getalkeer + " x " + i + " = " + getalkeer * i);
             }
+            
+            
         }
     }
 }

@@ -29,6 +29,8 @@ namespace medailes_lessen_work
           loops loops = new loops();
             loops.Start();
             */
+            Opdracht5 Opdracht5 = new Opdracht5();
+            Opdracht5.Start();
         }
     }
 }
