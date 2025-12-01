@@ -28,9 +28,14 @@ namespace medailes_lessen_work
                         
           loops loops = new loops();
             loops.Start();
-            */
+
             Opdracht5 Opdracht5 = new Opdracht5();
             Opdracht5.Start();
+            */
+            Student student = new Student();
+            student.jezelf("Deon", 16, "Maes");
+            student.vriend("Yassir", 16, "Oullal");
+
         }
     }
 }
