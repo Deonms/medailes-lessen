@@ -35,23 +35,34 @@ namespace medailes_lessen_work
             
             Opdracht5 Opdracht5 = new Opdracht5();
             Opdracht5.Start();
-            
-            Opdracht6 Opdracht6 = new Opdracht6();
-            Opdracht6.Start();
-            */
+
             bool admin = false;
             Console.WriteLine("Geef een Username");
             string Naam = Console.ReadLine();
+            Console.Clear();
             Console.WriteLine("Geef een Wachtwoord op");
             string Wachtwoord = Console.ReadLine();
-
+            Console.Clear();
+            int age;
+            Console.WriteLine("Wat is je leeftijd?");
+            while (!int.TryParse(Console.ReadLine(), out age))
+            {
+                Console.Clear();
+                Console.WriteLine("Voer alsjeblieft een nummer in en niet een woord");
+            }
+            Console.Clear();
             if (Naam == "Deon")
             {
                 admin = true;
             }
             
-            User user = new User(Naam, Wachtwoord, 16, 1, admin);
+            User user = new User(Naam, Wachtwoord, age, 1, admin);
             user.Login();
+            */
+
+            Opdracht6 Opdracht6 = new Opdracht6();
+            Opdracht6.Start();
+
         }
     }
 }
