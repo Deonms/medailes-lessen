@@ -10,7 +10,7 @@ namespace medailes_lessen_work
     {
         public void Start()
         {
-            int getalraad = 6;
+            int numbergeusser = 3478;
             bool running = true;
             int maximum1 = 0;
             int tries = 0;
@@ -29,17 +29,17 @@ namespace medailes_lessen_work
                     Console.WriteLine($"Dit is geen cijfer, dit kost je ook een try {tries}");
                 }
                 Console.Clear();
-                if (answer == 6)
+                if (answer == numbergeusser)
                 {
                     running = false;
                     Console.WriteLine($"Je hebt gewonnen in {tries} beurten");
                 }
-                if (answer > getalraad)
+                if (answer > numbergeusser)
                 {
                     tries = tries + 1;
                     Console.WriteLine($"Lager, beurten al gedaan {tries}");
                 }
-                else if (answer < getalraad)
+                else if (answer < numbergeusser)
                 {
                     tries = tries + 1;
                     Console.WriteLine($"Hoger, beurten al gedaan {tries}");
