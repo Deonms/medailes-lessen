@@ -21,7 +21,13 @@ namespace medailes_lessen_work
                     Console.WriteLine("Raad het getal");
                     maximum1 = maximum1 + 1;
                 }
-                int answer = Convert.ToInt32(Console.ReadLine());
+                int answer;
+                while (!int.TryParse(Console.ReadLine(), out answer))
+                {
+                    Console.Clear();
+                    tries = tries + 1;
+                    Console.WriteLine($"Dit is geen cijfer, dit kost je ook een try {tries}");
+                }
                 Console.Clear();
                 if (answer == 6)
                 {
