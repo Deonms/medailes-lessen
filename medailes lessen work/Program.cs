@@ -35,10 +35,11 @@ namespace medailes_lessen_work
             
             Opdracht5 Opdracht5 = new Opdracht5();
             Opdracht5.Start();
-            */
+            
             Opdracht6 Opdracht6 = new Opdracht6();
             Opdracht6.Start();
-
+            */
+            User User = new User("Deon", "yu85e6u78eu6t78e4h5tr985tyheuyhy", 16, 1, true);
         }
     }
 }
