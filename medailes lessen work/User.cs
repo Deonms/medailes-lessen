@@ -8,6 +8,7 @@ namespace medailes_lessen_work
 {
     internal class User
     {
+
         private string _name;
         private string _password;
         private int _age;
@@ -23,9 +24,16 @@ namespace medailes_lessen_work
             _admin = admin;
 
             Console.WriteLine($"User: {_name} met Wachtwoord: {_password} en leeftijd {_age} is aangemaakt");
-            if (admin)
+        }
+        public void Login()
+        {
+            if (_admin)
             {
-                Console.WriteLine($"\nDit it een admin genaamd: {_name} met id: {_id}");
+                Console.WriteLine($"\nWelkom Admin: {_name} met id: {_id}");
+            }
+            else
+            {
+                Console.WriteLine($"\nWelkom User: {_name} je hebt id: {_id}");
             }
         }
     }

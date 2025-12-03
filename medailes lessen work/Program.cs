@@ -39,7 +39,19 @@ namespace medailes_lessen_work
             Opdracht6 Opdracht6 = new Opdracht6();
             Opdracht6.Start();
             */
-            User User = new User("Deon", "yu85e6u78eu6t78e4h5tr985tyheuyhy", 16, 1, true);
+            bool admin = false;
+            Console.WriteLine("Geef een Username");
+            string Naam = Console.ReadLine();
+            Console.WriteLine("Geef een Wachtwoord op");
+            string Wachtwoord = Console.ReadLine();
+
+            if (Naam == "Deon")
+            {
+                admin = true;
+            }
+            
+            User user = new User(Naam, Wachtwoord, 16, 1, admin);
+            user.Login();
         }
     }
 }
