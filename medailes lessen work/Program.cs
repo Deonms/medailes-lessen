@@ -36,6 +36,8 @@ namespace medailes_lessen_work
             Opdracht5 Opdracht5 = new Opdracht5();
             Opdracht5.Start();
             */
+            Opdracht6 Opdracht6 = new Opdracht6();
+            Opdracht6.Start();
 
         }
     }
