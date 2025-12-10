@@ -14,6 +14,7 @@ namespace medailes_lessen_work
             int imax = 100;
             int imin = 0;
             int i = 0;
+            int laatstgeradengetal;
             Console.WriteLine($"geeft een cijfer het lieftse onder {imax} en boven {imin} (je kan ook {imax} en {imin} kiezen)");
             while (!int.TryParse(Console.ReadLine(), out i))
             {
@@ -27,6 +28,7 @@ namespace medailes_lessen_work
             bool running = true;
             int maximum1 = 0;
             int tries = 0;
+            
             while (running)
             {
                 if (maximum1 == 0)
@@ -35,28 +37,35 @@ namespace medailes_lessen_work
                     maximum1 = maximum1 + 1;
                 }
                 int answer;
+                
                 while (!int.TryParse(Console.ReadLine(), out answer))
                 {
+                    laatstgeradengetal = answer;
                     Console.Clear();
                     tries = tries + 1;
-                    Console.WriteLine($"Dit is geen cijfer, dit kost je ook een try {tries}");
+                    Console.WriteLine($"Dit is geen cijfer, dit kost je ook een try {tries} je laatst geraden getal {laatstgeradengetal}");
                 }
                 Console.Clear();
                 if (answer == numberguesser)
                 {
+                    laatstgeradengetal = answer;
                     running = false;
-                    Console.WriteLine($"Je hebt gewonnen in {tries} beurten");
+                    Console.WriteLine($"Je hebt gewonnen in {tries} beurten en het cijfer was {numberguesser}");
+
                 }
                 if (answer > numberguesser)
                 {
+                    laatstgeradengetal = answer;
                     tries = tries + 1;
-                    Console.WriteLine($"Lager, beurten al gedaan {tries}");
+                    Console.WriteLine($"Lager, beurten al gedaan {tries} je laatst geraden getal {laatstgeradengetal}");
                 }
                 else if (answer < numberguesser)
                 {
+                    laatstgeradengetal = answer;
                     tries = tries + 1;
-                    Console.WriteLine($"Hoger, beurten al gedaan {tries}");
+                    Console.WriteLine($"Hoger, beurten al gedaan {tries} je laatst geraden getal {laatstgeradengetal}");
                 }
+                
             }
         }
     }
