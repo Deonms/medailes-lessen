@@ -57,11 +57,14 @@ namespace medailes_lessen_work
             }
             
             User user = new User(Naam, Wachtwoord, age, 1, admin);
-            user.Login();
-            */
-
+            user.Login();|
+            
             Opdracht6 Opdracht6 = new Opdracht6();
             Opdracht6.Start();
+            */
+            Opdracht7 Opdracht7 = new Opdracht7();
+            Opdracht7.Start();
+
 
         }
     }
