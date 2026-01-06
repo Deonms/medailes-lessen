@@ -61,9 +61,11 @@ namespace medailes_lessen_work
             
             Opdracht6 Opdracht6 = new Opdracht6();
             Opdracht6.Start();
-            */
+
             Opdracht7 Opdracht7 = new Opdracht7();
             Opdracht7.Start();
+            */
+
 
 
         }
