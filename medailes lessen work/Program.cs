@@ -76,9 +76,17 @@ namespace medailes_lessen_work
                 car.printCarInfo();
             }
             */
-            Opdracht8 Opdracht8 = new Opdracht8();
-            Opdracht8.Start();
-
+            List<Opdracht8> Userlist = new List<Opdracht8>();
+            Opdracht8 User1 = new Opdracht8("Yassir", 45, 4);
+            Userlist.Add(User1);
+            Opdracht8 User2 = new Opdracht8("Deon", 98, 9);
+            Userlist.Add(User2);
+            Opdracht8 User3 = new Opdracht8("Jamiro", 36, 7);
+            Userlist.Add(User3);
+            foreach (Opdracht8 user in Userlist)
+            {
+                user.printUserInfo();
+            }
         }
     }
 }

@@ -8,17 +8,22 @@ namespace medailes_lessen_work
 {
     internal class Opdracht8
     {
-        public void Start() => Console.WriteLine("Spelers zijn er?"); 
-        int _aantalspelers = Convert.ToInt32(Console.ReadLine());
-        Random random = new Random();
-        
-        private string[] _name = new string[6];
-            private int[] _level = new int[999];
-            private int[] _HP = new int[100];
+        private string _username;
+        private int _level;
+        private int _lives;
 
-            
+        public Opdracht8(string username, int level, int Lives)
+        {
+            _username = username;
+            _level = level;
+            _lives = Lives;
+        }
+        public void printUserInfo()
+        {
+            Console.WriteLine($"Username: {_username} en deze user is level: {_level} en deze user heeft nog: {_lives} over");
+        }
+        }
     }
 
-            
-    }
+
 
