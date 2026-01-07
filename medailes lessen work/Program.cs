@@ -75,7 +75,7 @@ namespace medailes_lessen_work
             {
                 car.printCarInfo();
             }
-            */
+            
             List<Opdracht8> Userlist = new List<Opdracht8>();
             Opdracht8 User1 = new Opdracht8("Yassir", 45, 4);
             Userlist.Add(User1);
@@ -87,6 +87,7 @@ namespace medailes_lessen_work
             {
                 user.ShowStats();
             }
+            */
         }
     }
 }
