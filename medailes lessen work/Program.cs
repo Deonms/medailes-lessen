@@ -64,9 +64,20 @@ namespace medailes_lessen_work
 
             Opdracht7 Opdracht7 = new Opdracht7();
             Opdracht7.Start();
+            
+
+            List<Car> Carlist = new List<Car>();
+            Car Car1 = new Car("Ibiza", "Seat", 5);
+            Carlist.Add(Car1);
+            Car Car2 = new Car("Agilia", "oppal", 5);
+            Carlist.Add(Car2);
+            foreach(Car car in Carlist)
+            {
+                car.printCarInfo();
+            }
             */
-
-
+            Opdracht8 Opdracht8 = new Opdracht8();
+            Opdracht8.Start();
 
         }
     }
