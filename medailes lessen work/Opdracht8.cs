@@ -18,9 +18,9 @@ namespace medailes_lessen_work
             _level = level;
             _lives = Lives;
         }
-        public void printUserInfo()
+        public void ShowStats()
         {
-            Console.WriteLine($"Username: {_username} en deze user is level: {_level} en deze user heeft nog: {_lives} over");
+            Console.WriteLine($"Username: {_username} en deze user is level: {_level} en deze user heeft nog: {_lives} levens over");
         }
         }
     }

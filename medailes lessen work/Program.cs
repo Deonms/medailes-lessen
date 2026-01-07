@@ -85,7 +85,7 @@ namespace medailes_lessen_work
             Userlist.Add(User3);
             foreach (Opdracht8 user in Userlist)
             {
-                user.printUserInfo();
+                user.ShowStats();
             }
         }
     }
