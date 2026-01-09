@@ -75,7 +75,6 @@ namespace medailes_lessen_work
             {
                 car.printCarInfo();
             }
-            
             List<Opdracht8> Userlist = new List<Opdracht8>();
             Opdracht8 User1 = new Opdracht8("Yassir", 45, 4);
             Userlist.Add(User1);
@@ -88,6 +87,33 @@ namespace medailes_lessen_work
                 user.ShowStats();
             }
             */
+            List<Opdracht9> Weaponlist = new List<Opdracht9>();
+            Opdracht9 Weapon1 = new Opdracht9("Goude prikker","Melee", 10, 9, 1, 100);
+            Weaponlist.Add(Weapon1);
+            Opdracht9 Weapon2 = new Opdracht9("Speer", "Range", 12, 5, 8, 75);
+            Weaponlist.Add(Weapon2);
+            Opdracht9 Weapon3 = new Opdracht9("Pistool", "Range", 15, 7, 1, 150);
+            Weaponlist.Add(Weapon3);
+            Opdracht9 Weapon4 = new Opdracht9("Trident", "Melee/Range", 9, 9, 6, 175);
+            Weaponlist.Add(Weapon4);
+            Opdracht9 Weapon5 = new Opdracht9("Hamer", "Blunt", 5, 5, 2, 25);
+            Weaponlist.Add(Weapon5);
+            Opdracht9 Weapon6 = new Opdracht9("Chainsaw", "Melee", 20, 10, 7, 250);
+            Weaponlist.Add(Weapon6);
+            Opdracht9 Weapon7 = new Opdracht9("Machete", "Melee", 17, 8, 2, 175);
+            Weaponlist.Add(Weapon7);
+            Opdracht9 Weapon8 = new Opdracht9("C4", "Explosief", 100, 50, 10, 300);
+            Weaponlist.Add(Weapon8);
+            Opdracht9 Weapon9 = new Opdracht9("Whip", "Melee/Range", 19, 9, 4, 200);
+            Weaponlist.Add(Weapon9);
+            Opdracht9 Weapon10 = new Opdracht9("Yassir", "Companion", 25, 15, 3, 500);
+            Weaponlist.Add(Weapon10);
+
+            foreach (Opdracht9 user in Weaponlist)
+            {
+                user.ShowStats();
+            }
+            
         }
     }
 }
