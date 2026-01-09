@@ -88,7 +88,7 @@ namespace medailes_lessen_work
             }
             */
             List<Opdracht9> Weaponlist = new List<Opdracht9>();
-            Opdracht9 Weapon1 = new Opdracht9("Goude prikker","Melee", 10, 9, 1, 100);
+            Opdracht9 Weapon1 = new Opdracht9("Goude prikker", "Melee", 10, 9, 1, 100);
             Weaponlist.Add(Weapon1);
             Opdracht9 Weapon2 = new Opdracht9("Speer", "Range", 12, 5, 8, 75);
             Weaponlist.Add(Weapon2);

@@ -15,7 +15,8 @@ namespace medailes_lessen_work
         private int _newDamage;
         private int _attackCooldown;
         private int _cost;
-
+       
+       
         public Opdracht9(string name, string weapontype, int damage, int DamageToAdd, int attackCooldown, int cost)
         {
             _name = name;
