@@ -11,7 +11,7 @@ namespace medailes_lessen_work
     {
         static void Main(string[] args)
         {
-            /*
+            
             Console.WriteLine("Wat is je naam en je leeftijd?");
             string naam = Console.ReadLine();
             string leeftijd = Console.ReadLine();
@@ -57,7 +57,7 @@ namespace medailes_lessen_work
             }
             
             User user = new User(Naam, Wachtwoord, age, 1, admin);
-            user.Login();|
+            user.Login();
             
             Opdracht6 Opdracht6 = new Opdracht6();
             Opdracht6.Start();
@@ -86,34 +86,46 @@ namespace medailes_lessen_work
             {
                 user.ShowStats();
             }
-            */
+ /*
             List<Opdracht9> Weaponlist = new List<Opdracht9>();
-            Opdracht9 Weapon1 = new Opdracht9("Goude prikker", "Melee", 10, 9, 1, 100);
+            Opdracht9 Weapon1 = new Opdracht9("Goude prikker", "Melee", 10, 1, 100);
             Weaponlist.Add(Weapon1);
-            Opdracht9 Weapon2 = new Opdracht9("Speer", "Range", 12, 5, 8, 75);
+            Opdracht9 Weapon2 = new Opdracht9("Speer", "Range", 12, 8, 75);
             Weaponlist.Add(Weapon2);
-            Opdracht9 Weapon3 = new Opdracht9("Pistool", "Range", 15, 7, 1, 150);
+            Opdracht9 Weapon3 = new Opdracht9("Pistool", "Range", 15, 1, 150);
             Weaponlist.Add(Weapon3);
-            Opdracht9 Weapon4 = new Opdracht9("Trident", "Melee/Range", 9, 9, 6, 175);
+            Opdracht9 Weapon4 = new Opdracht9("Trident", "Melee/Range", 9, 6, 175);
             Weaponlist.Add(Weapon4);
-            Opdracht9 Weapon5 = new Opdracht9("Hamer", "Blunt", 5, 5, 2, 25);
+            Opdracht9 Weapon5 = new Opdracht9("Hamer", "Blunt", 5, 2, 25);
             Weaponlist.Add(Weapon5);
-            Opdracht9 Weapon6 = new Opdracht9("Chainsaw", "Melee", 20, 10, 7, 250);
+            Opdracht9 Weapon6 = new Opdracht9("Chainsaw", "Melee", 20, 7, 250);
             Weaponlist.Add(Weapon6);
-            Opdracht9 Weapon7 = new Opdracht9("Machete", "Melee", 17, 8, 2, 175);
+            Opdracht9 Weapon7 = new Opdracht9("Machete", "Melee", 17, 2, 175);
             Weaponlist.Add(Weapon7);
-            Opdracht9 Weapon8 = new Opdracht9("C4", "Explosief", 100, 50, 10, 300);
+            Opdracht9 Weapon8 = new Opdracht9("C4", "Explosief", 100, 10, 300);
             Weaponlist.Add(Weapon8);
-            Opdracht9 Weapon9 = new Opdracht9("Whip", "Melee/Range", 19, 9, 4, 200);
+            Opdracht9 Weapon9 = new Opdracht9("Whip", "Melee/Range", 19, 4, 200);
             Weaponlist.Add(Weapon9);
-            Opdracht9 Weapon10 = new Opdracht9("Yassir", "Companion", 25, 15, 3, 500);
+            Opdracht9 Weapon10 = new Opdracht9("Yassir", "Companion", 25, 3, 500);
             Weaponlist.Add(Weapon10);
+
+            Weapon1.UpgradeItem(10);
+            Weapon2.UpgradeItem(12);
+            Weapon3.UpgradeItem(15);
+            Weapon4.UpgradeItem(9);
+            Weapon5.UpgradeItem(5);
+            Weapon6.UpgradeItem(20);
+            Weapon7.UpgradeItem(17);
+            Weapon8.UpgradeItem(150);
+            Weapon9.UpgradeItem(19);
+            Weapon10.UpgradeItem(25);
 
             foreach (Opdracht9 user in Weaponlist)
             {
                 user.ShowStats();
             }
-            
+            */
+
         }
     }
 }
