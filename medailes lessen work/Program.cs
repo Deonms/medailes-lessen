@@ -11,7 +11,7 @@ namespace medailes_lessen_work
     {
         static void Main(string[] args)
         {
-            
+            /*
             Console.WriteLine("Wat is je naam en je leeftijd?");
             string naam = Console.ReadLine();
             string leeftijd = Console.ReadLine();
@@ -86,7 +86,7 @@ namespace medailes_lessen_work
             {
                 user.ShowStats();
             }
- /*
+ 
             List<Opdracht9> Weaponlist = new List<Opdracht9>();
             Opdracht9 Weapon1 = new Opdracht9("Goude prikker", "Melee", 10, 1, 100);
             Weaponlist.Add(Weapon1);
